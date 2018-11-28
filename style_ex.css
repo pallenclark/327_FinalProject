@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	background: #A16500;
+}
+
+
+
+/* Container 1 Start */
+.container{
+	text-align: center;
+	position: center;
+	top: 50;
+	left: 50%;
+	width: 100%;  
+}
+
+/*Controls for typeface*/
+.container span{
+	color: white;
+	text-transform: uppercase;
+	display: block;
+}
+
+/*Diamond in the Back*/
+.text1{
+	color: black;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	position: relative;
+	animation: exampleone 1.3s 1;
+	animation-delay: 3s;
+
+}
+
+/*Sunroof Top*/
+.text2{
+	font-size: 30px;
+	font-weight: 900;
+	color: #6ab04c;
+	animation: exampletwo 1.3s 1;
+	animation-delay: 4s;
+}
+
+/* Container 1 End */
+
+/* Container 2 Start */
+
+.container2{
+	padding-left: 100%;
+	padding-top: 10%;
+	text-align: center;
+	position: center;
+	top: 10%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.container2 span{
+	color: white;
+	text-transform: uppercase;
+	display: block;
+
+}
+/*Diggin' in the scene*/
+.text3{
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 8px;
+	margin-bottom: 5px; 
+	position: relative;
+	animation: exampletwo 2.5s 1;
+	animation-delay: 5s;
+}
+/*with a gangsta lean*/
+.text4{
+	font-size: 30px;
+	font-weight: 900;
+	color:#6ab04c;
+	animation: exampletwo 1.5s 1;
+	animation-delay: 7s;
+}
+
+
+
+/* Container 2 End */
+	
+
+/* Container 3 Start */
+.container3{
+	text-align: center;
+	position: center;
+	top: 50;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	animation-delay: 
+}
+
+
+
+
+.container3{
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+	position: relative;
+	animation: exampletwo 1.5s 1;
+	animation-delay: 8.5s;
+
+}
+
+/* Container 3 End */
+
+/* Keyframe Animation 1 Start */
+@keyframes exampleone{
+	0%{
+		color: #A16500;
+		margin-bottom: -20px;
+	}
+	15%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -10px;
+	
+	}
+}
+/* Keyframe Animation 1 End */
+
+
+/* Keyframe Animation 2 Start */
+@keyframes exampletwo{
+	45%{
+		color: #A16500;
+		margin-bottom: -40px;
+	}
+	50%{
+		letter-spacing: 15px;
+		margin-bottom: -60px;
+	}
+	50%{
+		letter-spacing: 4px;
+		margin-bottom: -50px;
+	}	
+}
+/* Keyframe Animation 2 End */
+
+/* Car Animation*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+	
